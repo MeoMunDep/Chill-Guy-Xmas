@@ -39,7 +39,7 @@ create_default_configs() {
     "howManyAccountsRunInOneTime": 10,
     "doTasks": true,
     "playGames": true,
-    "referralCode": "6713068747"
+    "referralCode": ""
 }
 EOL
 }
@@ -54,9 +54,9 @@ check_configs() {
 
 while true; do
     clear
-    echo "================================="
+    echo "============================================================================"
     echo "    name BOT SETUP AND RUN SCRIPT"
-    echo "================================="
+    echo "============================================================================"
     echo
     echo "Current directory: $(pwd)"
     echo "Node modules directory: $MODULES_DIR/node_modules"

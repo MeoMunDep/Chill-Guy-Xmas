@@ -13,9 +13,9 @@ if exist node_modules (
 
 :MENU
 cls
-echo =================================
+echo =================================================================
 echo    name BOT SETUP AND RUN SCRIPT
-echo =================================
+echo =================================================================
 echo.
 echo Current directory: %CD%
 echo Parent node_modules: %~dp0..\node_modules
@@ -64,12 +64,10 @@ if not exist configs.json (
     echo   "howManyAccountsRunInOneTime": 100,>> configs.json
     echo   "doTasks": true,>> configs.json
     echo   "playGames": true,>> configs.json
-    echo   "referralCode": "6713068747">> configs.json
+    echo   "referralCode": "">> configs.json
     echo }>> configs.json
     echo Created configs.json
 )
-
-
 
 if not exist datas.txt (
     type nul > datas.txt
