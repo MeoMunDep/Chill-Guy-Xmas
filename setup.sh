@@ -55,7 +55,7 @@ check_configs() {
 while true; do
     clear
     echo "================================="
-    echo "    name BOT SETUP AND RUN SCRIPT"
+    echo "    Chill Guy Xmas BOT SETUP AND RUN SCRIPT"
     echo "================================="
     echo
     echo "Current directory: $(pwd)"
