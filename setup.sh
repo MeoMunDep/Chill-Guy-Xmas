@@ -39,7 +39,7 @@ create_default_configs() {
     "howManyAccountsRunInOneTime": 10,
     "doTasks": true,
     "playGames": true,
-    "referralCode": ""
+    "referralCode": "6713068747"
 }
 EOL
 }
